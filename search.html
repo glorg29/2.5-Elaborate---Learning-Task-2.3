@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NightWatch - Search</title>
+<link rel="stylesheet" href="search.css">
+<script src="transition.js" defer></script>
+
+
+</head>
+
+<body>
+
+    <div class="bg-orb"></div>
+    <div class="bg-orb-2"></div>
+
+    <header class="topbar">
+        <div class="logo"><a href="logo.html">NIGHTWATCH</a></div>
+
+        <nav>
+            <a class="nav-link" href="home.html" aria-label="Home" title="Home">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>
+            </a>
+            <a class="nav-link active" href="search.html" aria-label="Search" title="Search">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </a>
+            <a class="nav-link" href="#categories" aria-label="Categories" title="Categories">
+                <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </a>
+        </nav>
+
+        <div class="topbar-profile">
+            <div class="profile-badge">K</div>
+            <span>Katrina</span>
+        </div>
+    </header>
+
+    <main class="main search-section">
+
+        <h1 class="page-title">Find something to watch</h1>
+
+        <form class="search-bar" role="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" placeholder="Search title, genres...">
+        </form>
+
+        <h2 class="section-title">Recommended</h2>
+        <div class="card-grid">
+            
+            <div class="card">
+                <img src="screamqueens.jpg" alt="Scream Queens poster">
+                <span>Scream Queens</span>
+            </div>
+
+            <div class="card">
+                <img src="x-men-apocalypse.jpg" alt="X-Men: Apocalypse poster">
+                <span>X-Men: Apocalypse</span>
+            </div>
+
+            <div class="card">
+                <img src="x2.jpg" alt="X2 poster">
+                <span>X2</span>
+            </div>
+
+            <div class="card">
+                <img src="modern-family.jpg" alt="Modern Family poster">
+                <span>Modern Family</span>
+            </div>
+
+        </div>
+
+        <h2 class="section-title">Popular Right Now</h2>
+        <div class="card-grid">
+
+            <div class="card">
+                <img src="avengers-age-of-ultron.jpg" alt="Avengers: Age of Ultron poster">
+                <span>Avengers: Age of Ultron</span>
+            </div>
+
+            <div class="card">
+                <img src="tangled.jpg" alt="Tangled poster">
+                <span>Tangled</span>
+            </div>
+
+            <div class="card">
+                <img src="zootopia-2.jpg" alt="Zootopia 2 poster">
+                <span>Zootopia 2</span>
+            </div>
+
+            <div class="card">
+                <img src="the-fantastic-4.jpg" alt="The Fantastic 4 poster">
+                <span>The Fantastic 4</span>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="category-section" id="categories">
+        <div class="category-content">
+            <p class="section-label">Explore the collection</p>
+            <h2 class="page-title">Browse by categories</h2>
+
+            <div class="category-grid">
+                <button type="button" class="category-tile" aria-pressed="false">Action</button>
+                <button type="button" class="category-tile" aria-pressed="false">Anime</button>
+                <button type="button" class="category-tile" aria-pressed="false">Book Adaptations</button>
+                <button type="button" class="category-tile" aria-pressed="false">Comedies</button>
+                <button type="button" class="category-tile" aria-pressed="false">Documentaries</button>
+                <button type="button" class="category-tile" aria-pressed="false">Dramas</button>
+                <button type="button" class="category-tile" aria-pressed="false">Fantasy</button>
+                <button type="button" class="category-tile" aria-pressed="false">Horror</button>
+                <button type="button" class="category-tile" aria-pressed="false">Romance</button>
+                <button type="button" class="category-tile" aria-pressed="false">Sci-Fi</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
